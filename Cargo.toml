@@ -1,0 +1,24 @@
+[package]
+name = "my-http-impl"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "http_0_9_server"
+path = "src/http_0_9/server.rs"
+
+[[bin]]
+name = "http_0_9_client"
+path = "src/http_0_9/client.rs"
+
+[[bin]]
+name = "http_1_0_server"
+path = "src/http_1_0/server.rs"
+
+[[bin]]
+name = "http_1_0_client"
+path = "src/http_1_0/client.rs"
